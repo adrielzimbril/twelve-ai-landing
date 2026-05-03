@@ -22,22 +22,28 @@ const mono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://twelve-ai-landing.adrielzimbril.com"),
-  title: "Twelve AI | Image Generation for Production Studios",
+  title: "Twelve AI | AI Image Generation for Production Visual Systems",
   description:
-    "Day 4 of the 1 landing page per day challenge. Twelve AI is a conceptual image generation workspace for brand-safe campaign visuals, product imagery, and editorial art direction.",
+    "Day 4/30 of the AI-Generated Landing Page Challenge. Twelve AI is a conceptual AI image generation workspace that turns campaign prompts into coherent brand-safe visual systems for creative studios.",
   keywords: [
     "Twelve AI",
     "AI image generation",
-    "AI art direction",
+    "AI visual system",
+    "AI campaign imagery",
     "campaign imagery",
+    "brand-safe visuals",
     "creative studio",
+    "image generation tool",
     "Next.js",
+    "React",
     "Tailwind CSS",
+    "bento design",
+    "AI challenge",
   ],
   openGraph: {
-    title: "Twelve AI | Image Generation for Production Studios",
+    title: "Twelve AI | AI Image Generation for Production Visual Systems",
     description:
-      "A minimal, high-end landing page for a conceptual AI image generation tool.",
+      "A conceptual AI image generation landing page for Day 4/30 of the AI-Generated Landing Page Challenge.",
     url: "https://twelve-ai-landing.adrielzimbril.com",
     siteName: "Twelve AI",
     images: [
@@ -53,9 +59,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Twelve AI | Image Generation for Production Studios",
+    title: "Twelve AI | AI Image Generation for Production Visual Systems",
     description:
-      "A conceptual AI image generation landing page for Day 4 of the daily landing page challenge.",
+      "A conceptual AI image generation landing page for Day 4/30 of the AI-Generated Landing Page Challenge.",
     images: ["/opengraph-image.png"],
   },
   icons: {
