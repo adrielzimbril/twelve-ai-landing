@@ -1,7 +1,9 @@
 <!-- BEGIN:nextjs-agent-rules -->
+
 # This is NOT the Next.js you know
 
 This version has breaking changes - APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` or the official Next.js MCP docs before writing any code. Heed deprecation notices.
+
 <!-- END:nextjs-agent-rules -->
 
 # Twelve AI Project Instructions
@@ -10,7 +12,7 @@ This version has breaking changes - APIs, conventions, and file structure may al
 
 - Before coding, initialize or verify Git is initialized for the project.
 - Before coding, read `DESIGN.md` and inspect `.design/` if either exists. Use them as local design references only.
-- Never commit or push `DESIGN.md`, `design.md`, or any files inside `.design/` or `.deisgn/`.
+- Never commit or push `DESIGN.md`, `design.md`, or any files inside `.design/` or `.design-files/`.
 - Before metadata, README, SEO, landing-page structure, or challenge copy work, inspect `https://github.com/adrielzimbril/framey-landing` and follow its structure as the reference.
 
 ## Package Manager
@@ -78,7 +80,7 @@ This version has breaking changes - APIs, conventions, and file structure may al
 
 ## Design Files
 
-- `DESIGN.md`, `design.md`, `.design/`, and `.deisgn/` are local-only references.
+- `DESIGN.md`, `design.md`, `.design/`, and `.design-files/` are local-only references.
 - They must never be committed, force-added, pushed, copied into commits, or included during history rewrites.
 - `.gitignore` must keep these entries ignored.
 
