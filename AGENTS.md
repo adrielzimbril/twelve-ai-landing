@@ -41,7 +41,7 @@ This version has breaking changes - APIs, conventions, and file structure may al
 
 ## Metadata Pattern
 
-- Always include complete metadata in `src/app/layout.tsx`.
+- Always include complete SEO metadata in `src/app/layout.tsx`.
 - Follow the exact `framey-landing` metadata structure:
   - `metadataBase`
   - `title`
@@ -56,6 +56,25 @@ This version has breaking changes - APIs, conventions, and file structure may al
   - `A conceptual [product category] landing page for Day X/30 of the AI-Generated Landing Page Challenge.`
 - Always use `/opengraph-image.png` for Open Graph and Twitter preview images unless the user explicitly replaces the asset.
 - Always include required tags in `keywords`: project name, product category, AI category, primary use case, relevant stack, `bento design` when applicable, and `AI challenge`.
+
+## GitHub Repository Metadata
+
+- "Metadata" also means the GitHub repository details shown in the right sidebar: repository description, website URL, and topics.
+- Before setting GitHub repository metadata, inspect `https://github.com/adrielzimbril/framey-landing` and mirror its structure.
+- Use this GitHub repository description structure exactly, changing only the day, project name, product category, and promise:
+  - `Day X/30 of the AI-Generated Landing Page Challenge. [Project Name] is a conceptual [product category] that [core product promise]. 🐼`
+- Set the GitHub website/homepage URL to the production project URL.
+- Add GitHub topics following the Framey pattern, adapted to the project:
+  - `ai-challenge`
+  - `ai-landing-page`
+  - project-specific AI/product topic, for example `ai-image-generation`
+  - `bento-design` when applicable
+  - `generative-ai`
+  - `landing-page`
+  - `mockup`
+  - stack topics such as `nextjs` and `tailwindcss`
+  - domain topic such as `web-design`
+- Verify the GitHub repository metadata after editing with `gh repo view --json description,homepageUrl,repositoryTopics`.
 
 ## Design Files
 
